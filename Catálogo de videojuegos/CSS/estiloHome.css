@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(96, 110, 187, 0.575);
+
+}
+
+header{
+    background-color: rgb(102, 102, 226);
+    padding: 1%;
+    border-radius: 5px;
+}
+.nav{
+    /* background-color: grey; */
+    color: whitesmoke;
+    text-decoration: none;
+    /* padding: 1%; */
+    /* border-radius: 15%; */
+}
