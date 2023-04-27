@@ -12,6 +12,12 @@ header{
     /* background-color: grey; */
     color: whitesmoke;
     text-decoration: none;
+    padding: 5px;
+    /* margin: 5px; */
     /* padding: 1%; */
     /* border-radius: 15%; */
+}
+
+li {
+    display: inline;
 }
