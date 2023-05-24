@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 body{
     background-color: rgba(96, 110, 187, 0.575);
 
@@ -16,8 +18,21 @@ header{
     /* margin: 5px; */
     /* padding: 1%; */
     /* border-radius: 15%; */
+    font-family: 'Fjalla One', sans-serif;
 }
 
-li {
-    display: inline;
+textarea {
+    max-width: 500px;
+    max-height: 500px;
+    /* background-color: rgb(192, 192, 219); */
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+     
+}
+
+/* li {
+    display: inline;
+} */

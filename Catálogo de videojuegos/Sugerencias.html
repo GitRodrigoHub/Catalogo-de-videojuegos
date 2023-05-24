@@ -5,25 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acerca de nosotros-JuegosCodo</title>
+    <title>Sugerencias-Juegos Codo</title>
     <link rel="stylesheet" href="CSS/estiloHome.css">
+    <!-- <script src="jsJuegosCodo.js"></script> -->
     <script src="https://kit.fontawesome.com/a0f7bdb973.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
     <header>
-        <!-- <ul>
-                <li>
-                    <a href="Home.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="Categorías.html">Categorías</a>
-                </li>
-                <li>
-                    <a href="About.html">Acerca de nosotros</a> 
-                </li>
-            </ul>             -->
         <nav>
             <a class="nav" href="Home.html">Inicio</a>
             <a class="nav" href="Categorías.html">Categorías</a>
@@ -33,19 +22,26 @@
     </header>
 
     <main>
-        <h1>JuegosCodo</h1>
-        <h2>Sobre nosotros:</h2>
-        <p1>
-            Somos un grupo de chicos que decidió acercarle al público una manera distinta de poder elegir los juegos
-            para su pc.
-        </p1>
-        <h2>
-            Contacto
-        </h2>
-        <p1>
-            Si desea reportar un error no dude en comunicarlo a nuestro correo:
-            <a href="mailto:ejemploCodo@gmail.com">ejemplocodo@hotmail.com</a>
-        </p1>
+        <h2>Sugerencias</h2>
+        <div class="form">
+            <form action="https://formspree.io/f/mnqyypel" name="formJuegos" class="form" method="POST">
+                <div>
+                    <label for="fname">Nombre:</label>
+                    <input id="fname" type="text" name="nombre" required>
+                </div>
+                <div>
+                    <label for="femail">Email:</label>
+                    <input id="femail" type="email" name="email" required>
+                </div>
+                <div>
+                    <p>Mensaje/Comentario:</p>
+                    <textarea name="comentario" rows="10" cols="40">Escribinos tu mensaje...</textarea>
+                </div>
+                <div>
+                    <input type="submit" id="btn" value="Enviar">
+                </div>
+            </form>
+        </div>
     </main>
 
     <footer>
